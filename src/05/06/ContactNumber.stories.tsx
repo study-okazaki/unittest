@@ -1,5 +1,5 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { ContactNumber } from "./ContactNumber";
+import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
+import { ContactNumber } from './ContactNumber';
 
 export default {
   component: ContactNumber,

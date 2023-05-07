@@ -1,6 +1,6 @@
-import { greetByTime } from ".";
+import { greetByTime } from '.';
 
-describe("greetByTime(", () => {
+describe('greetByTime(', () => {
   beforeEach(() => {
     jest.useFakeTimers();
   });
@@ -9,18 +9,18 @@ describe("greetByTime(", () => {
     jest.useRealTimers();
   });
 
-  test("朝は「おはよう」を返す", () => {
+  test('朝は「おはよう」を返す', () => {
     jest.setSystemTime(new Date(2023, 4, 23, 8, 0, 0));
-    expect(greetByTime()).toBe("おはよう");
+    expect(greetByTime()).toBe('おはよう');
   });
 
-  test("昼は「こんにちは」を返す", () => {
+  test('昼は「こんにちは」を返す', () => {
     jest.setSystemTime(new Date(2023, 4, 23, 14, 0, 0));
-    expect(greetByTime()).toBe("こんにちは");
+    expect(greetByTime()).toBe('こんにちは');
   });
 
-  test("夜は「こんばんは」を返す", () => {
+  test('夜は「こんばんは」を返す', () => {
     jest.setSystemTime(new Date(2023, 4, 23, 21, 0, 0));
-    expect(greetByTime()).toBe("こんばんは");
+    expect(greetByTime()).toBe('こんばんは');
   });
 });

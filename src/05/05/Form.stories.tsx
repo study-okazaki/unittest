@@ -1,5 +1,5 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { Form } from "./Form";
+import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
+import { Form } from './Form';
 
 export default {
   component: Form,

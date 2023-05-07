@@ -1,4 +1,4 @@
-import { getMyArticles } from "../fetchers";
+import { getMyArticles } from '../fetchers';
 
 export async function getMyArticleLinksByCategory(category: string) {
   // データを取得する関数

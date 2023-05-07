@@ -1,4 +1,4 @@
-export const DeliveryAddress = ({ title = "お届け先" }: { title?: string }) => {
+export const DeliveryAddress = ({ title = 'お届け先' }: { title?: string }) => {
   return (
     <fieldset>
       <legend>{title}</legend>

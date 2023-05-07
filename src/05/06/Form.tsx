@@ -1,10 +1,10 @@
-import { useState } from "react";
-import { ContactNumber } from "./ContactNumber";
-import { DeliveryAddress } from "./DeliveryAddress";
-import { PastDeliveryAddress } from "./PastDeliveryAddress";
-import { RegisterDeliveryAddress } from "./RegisterDeliveryAddress";
+import { useState } from 'react';
+import { ContactNumber } from './ContactNumber';
+import { DeliveryAddress } from './DeliveryAddress';
+import { PastDeliveryAddress } from './PastDeliveryAddress';
+import { RegisterDeliveryAddress } from './RegisterDeliveryAddress';
 
-export type AddressOption = React.ComponentProps<"option"> & { id: string };
+export type AddressOption = React.ComponentProps<'option'> & { id: string };
 export type Props = {
   deliveryAddresses?: AddressOption[];
   onSubmit?: (event: React.FormEvent<HTMLFormElement>) => void;

@@ -1,5 +1,5 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { InputAccount } from "./InputAccount";
+import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
+import { InputAccount } from './InputAccount';
 
 export default {
   component: InputAccount,

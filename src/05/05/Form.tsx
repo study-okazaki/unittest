@@ -1,6 +1,6 @@
-import { useId, useState } from "react";
-import { Agreement } from "./Agreement";
-import { InputAccount } from "./InputAccount";
+import { useId, useState } from 'react';
+import { Agreement } from './Agreement';
+import { InputAccount } from './InputAccount';
 
 export const Form = () => {
   const [checked, setChecked] = useState(false);

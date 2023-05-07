@@ -1,5 +1,5 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { Agreement } from "./Agreement";
+import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
+import { Agreement } from './Agreement';
 
 export default {
   component: Agreement,

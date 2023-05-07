@@ -1,6 +1,6 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { ArticleList } from "./ArticleList";
-import { items } from "./fixture";
+import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
+import { ArticleList } from './ArticleList';
+import { items } from './fixture';
 
 export default {
   component: ArticleList,

@@ -1,9 +1,9 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { Form } from "./Form";
+import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
+import { Form } from './Form';
 
 export default {
   component: Form,
-  args: { name: "taro" },
+  args: { name: 'taro' },
 } as ComponentMeta<typeof Form>;
 
 type Story = ComponentStoryObj<typeof Form>;

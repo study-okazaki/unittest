@@ -1,5 +1,5 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { DeliveryAddress } from "./DeliveryAddress";
+import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
+import { DeliveryAddress } from './DeliveryAddress';
 
 export default {
   component: DeliveryAddress,

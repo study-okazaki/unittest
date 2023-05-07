@@ -1,4 +1,4 @@
-import { AddressOption } from "./Form";
+import { AddressOption } from './Form';
 
 export const PastDeliveryAddress = ({
   disabled,

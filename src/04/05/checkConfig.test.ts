@@ -1,6 +1,6 @@
-import { checkConfig } from "./checkConfig";
+import { checkConfig } from './checkConfig';
 
-test("モック関数は実行時引数のオブジェクト検証ができる", () => {
+test('モック関数は実行時引数のオブジェクト検証ができる', () => {
   const mockFn = jest.fn();
   checkConfig(mockFn);
   expect(mockFn).toHaveBeenCalledWith({
@@ -9,7 +9,7 @@ test("モック関数は実行時引数のオブジェクト検証ができる",
   });
 });
 
-test("expect.objectContaining による部分検証", () => {
+test('expect.objectContaining による部分検証', () => {
   const mockFn = jest.fn();
   checkConfig(mockFn);
   expect(mockFn).toHaveBeenCalledWith(

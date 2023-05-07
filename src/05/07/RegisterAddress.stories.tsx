@@ -1,5 +1,5 @@
-import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
-import { RegisterAddress } from "./RegisterAddress";
+import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
+import { RegisterAddress } from './RegisterAddress';
 
 export default {
   component: RegisterAddress,
